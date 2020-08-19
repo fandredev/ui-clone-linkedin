@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import MobileHeader from "../MobileHeader";
 import DesktopHeader from "../DesktopHeader";
 
@@ -7,12 +7,16 @@ import LeftColumn from "../LeftColumn";
 import MiddleColumn from "../MiddleColumn";
 import RightColumn from "../RightColumn";
 import AdBanner from "../AdBanner";
-const Layout: React.FC = () => {
-  const [isLoading, setIsLoading] = useState(true);
 
+import { useDispatch, useSelector } from "react-redux";
+import * as actions from "../../store/shimmer/action";
+
+const Layout: React.FC = () => {
+  const dispatch = useDispatch();
+  const isLoading = useSelector((state: any) => state.shimmer.isLoading);
   useEffect(() => {
     setTimeout(() => {
-      setIsLoading(false);
+      dispatch(actions.HideShimmer(false));
     }, 1000);
   });
   return (
