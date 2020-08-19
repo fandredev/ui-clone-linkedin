@@ -1,5 +1,5 @@
-import React from "react";
-import { Text, Container, Circle } from "./styled";
+import React from 'react';
+import { Text, Container, Circle } from './styled';
 const Premium: React.FC = () => {
   return (
     <Container>

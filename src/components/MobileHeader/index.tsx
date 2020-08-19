@@ -1,5 +1,5 @@
-import React from "react";
-import { Container, ProfileCircle, SearchInput, MessageIcon } from "./styles";
+import React from 'react';
+import { Container, ProfileCircle, SearchInput, MessageIcon } from './styles';
 
 const MobileHeader: React.FC = () => {
   return (

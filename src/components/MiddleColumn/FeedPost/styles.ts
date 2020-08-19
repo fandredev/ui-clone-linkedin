@@ -1,11 +1,7 @@
-import styled, { css } from "styled-components";
-import { AiOutlineLike } from "react-icons/ai";
-import { TiWorld } from "react-icons/ti";
-import {
-  RiMessage2Line,
-  RiShareForwardLine,
-  RiSendPlaneLine,
-} from "react-icons/ri";
+import styled, { css } from 'styled-components';
+import { AiOutlineLike } from 'react-icons/ai';
+import { TiWorld } from 'react-icons/ti';
+import { RiMessage2Line, RiShareForwardLine, RiSendPlaneLine } from 'react-icons/ri';
 
 export const Container = styled.div`
   margin-top: 8px;

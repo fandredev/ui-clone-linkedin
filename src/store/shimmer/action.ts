@@ -1,4 +1,4 @@
-import * as types from "../actionTypes";
+import * as types from '../actionTypes';
 
 export function HideShimmer(payload: boolean) {
   return {

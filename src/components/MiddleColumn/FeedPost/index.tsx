@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import Panel from "../../Panel";
+import Panel from '../../Panel';
 
 import {
   Container,
@@ -14,7 +14,7 @@ import {
   ShareIcon,
   SendIcon,
   WorldIcon,
-} from "./styles";
+} from './styles';
 const FeedPost: React.FC = () => {
   return (
     <Panel>
@@ -32,10 +32,7 @@ const FeedPost: React.FC = () => {
           </Column>
         </Row>
 
-        <PostImage
-          src="https://blog.rocketseat.com.br/content/images/2019/05/Painel.png"
-          alt="Rocketseat Blog"
-        />
+        <PostImage src="https://blog.rocketseat.com.br/content/images/2019/05/Painel.png" alt="Rocketseat Blog" />
 
         <Row className="likes">
           <span className="circle blue" />

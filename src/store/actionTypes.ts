@@ -1,1 +1,1 @@
-export const HIDE_SHIMMER = "HIDE_SHIMMER";
+export const HIDE_SHIMMER = 'HIDE_SHIMMER';

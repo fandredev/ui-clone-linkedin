@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import Panel from "../../Panel";
-import Premium from "../Premium";
+import Panel from '../../Panel';
+import Premium from '../Premium';
 
-import { Container } from "./styles";
+import { Container } from './styles';
 
 const ProfilePanel: React.FC = () => {
   return (
@@ -11,11 +11,7 @@ const ProfilePanel: React.FC = () => {
       <Panel>
         <Container>
           <div className="profile-cover"></div>
-          <img
-            src="https://github.com/flubyGit.png"
-            alt="Avatar"
-            className="profile-picture"
-          />
+          <img src="https://github.com/flubyGit.png" alt="Avatar" className="profile-picture" />
           <h1>Felipe André</h1>
           <h2>Desenvolvedor Júnior</h2>
 

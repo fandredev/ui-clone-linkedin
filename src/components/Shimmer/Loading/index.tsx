@@ -1,7 +1,7 @@
-import React from "react";
-import { Container } from "./styled";
-import Panel from "../../Panel";
-import Skeleton from "../../Skeleton";
+import React from 'react';
+import { Container } from './styled';
+import Panel from '../../Panel';
+import Skeleton from '../../Skeleton';
 
 const LoadingProfilePanel: React.FC = () => {
   return (

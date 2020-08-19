@@ -1,7 +1,7 @@
-import React from "react";
-import { Container } from "./styles";
-import Panel from "../../Panel";
-import Skeleton from "../../Skeleton";
+import React from 'react';
+import { Container } from './styles';
+import Panel from '../../Panel';
+import Skeleton from '../../Skeleton';
 
 const LoadingFeedPost: React.FC = () => {
   return (

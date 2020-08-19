@@ -1,9 +1,10 @@
 {
-  "typescript.suggest.autoImports": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll": true
-  },
-  "editor.formatOnSave": true,
-  "editor.autoIndent": "advanced"
+    "typescript.suggest.autoImports": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll": true
+    },
+    "editor.formatOnSave": true,
+    "editor.autoIndent": "advanced",
+    "editor.tabSize": 2
 }

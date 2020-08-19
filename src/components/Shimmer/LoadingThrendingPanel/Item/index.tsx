@@ -1,6 +1,6 @@
-import React from "react";
-import { Container } from "./styles";
-import Skeleton from "../../../Skeleton";
+import React from 'react';
+import { Container } from './styles';
+import Skeleton from '../../../Skeleton';
 
 const Item = () => {
   return (

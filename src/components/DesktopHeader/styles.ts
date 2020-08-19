@@ -1,9 +1,9 @@
-import styled, { css } from "styled-components";
-import { GrLinkedin } from "react-icons/gr";
-import { AiFillHome, AiOutlineBell, AiFillCaretDown } from "react-icons/ai";
-import { IoMdPeople } from "react-icons/io";
-import { TiMessages } from "react-icons/ti";
-import { BsBag } from "react-icons/bs";
+import styled, { css } from 'styled-components';
+import { GrLinkedin } from 'react-icons/gr';
+import { AiFillHome, AiOutlineBell, AiFillCaretDown } from 'react-icons/ai';
+import { IoMdPeople } from 'react-icons/io';
+import { TiMessages } from 'react-icons/ti';
+import { BsBag } from 'react-icons/bs';
 const generalIconCss = css`
   height: 24px;
   width: 24px;

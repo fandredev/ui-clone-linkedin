@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { FaHashtag } from "react-icons/fa";
+import styled from 'styled-components';
+import { FaHashtag } from 'react-icons/fa';
 
 export const Container = styled.div`
   position: sticky;

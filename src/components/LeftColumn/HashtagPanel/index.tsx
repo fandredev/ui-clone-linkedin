@@ -1,17 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import Panel from "../../Panel";
+import Panel from '../../Panel';
 
-import { Container, HashtagIcon } from "./styles";
+import { Container, HashtagIcon } from './styles';
 
-const tags = ["rocketseat", "next-level", "node", "react", "developer"];
-const groups = [
-  "Front-End Developer",
-  "React.JS Devs",
-  "Rocketseat",
-  "jasmine",
-  "tdd-brasil",
-];
+const tags = ['rocketseat', 'next-level', 'node', 'react', 'developer'];
+const groups = ['Front-End Developer', 'React.JS Devs', 'Rocketseat', 'jasmine', 'tdd-brasil'];
 
 const HashtagPanel: React.FC = () => {
   return (

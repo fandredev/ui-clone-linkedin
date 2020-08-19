@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { FiMessageSquare } from "react-icons/fi";
+import styled from 'styled-components';
+import { FiMessageSquare } from 'react-icons/fi';
 export const Container = styled.div`
   background: var(--color-link);
   padding: 0 16px;

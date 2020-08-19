@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Container,
   Wrapper,
@@ -11,7 +11,7 @@ import {
   MyNetworkIcon,
   MessagesIcon,
   BagIcon,
-} from "./styles";
+} from './styles';
 
 const DesktopHeader: React.FC = () => {
   return (

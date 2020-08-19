@@ -1,11 +1,6 @@
-import styled, { css } from "styled-components";
-import { BsPencilSquare } from "react-icons/bs";
-import {
-  AiOutlineCamera,
-  AiOutlineVideoCamera,
-  AiOutlineFileText,
-  AiOutlineProfile,
-} from "react-icons/ai";
+import styled, { css } from 'styled-components';
+import { BsPencilSquare } from 'react-icons/bs';
+import { AiOutlineCamera, AiOutlineVideoCamera, AiOutlineFileText, AiOutlineProfile } from 'react-icons/ai';
 
 export const Container = styled.div`
   color: var(--color-gray);
