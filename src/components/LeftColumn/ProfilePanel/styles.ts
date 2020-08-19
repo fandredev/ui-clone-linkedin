@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   padding-bottom: 12px;
@@ -42,7 +42,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
     font-size: 12px;
-    margin: 0 12px;
+    margin: 10px 12px;
     font-weight: 600;
 
     .key {

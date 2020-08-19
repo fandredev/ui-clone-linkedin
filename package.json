@@ -17,6 +17,11 @@
     "styled-components": "^5.1.1",
     "typescript": "~3.7.2"
   },
+  "author": {
+    "email": "guilherme.rodrigues.profissional@gmail.com",
+    "name": "Guilherme Rodz",
+    "url": "https://github.com/guilhermerodz"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

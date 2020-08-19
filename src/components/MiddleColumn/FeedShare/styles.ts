@@ -1,11 +1,11 @@
-import styled, { css } from 'styled-components';
-import { BsPencilSquare } from 'react-icons/bs';
+import styled, { css } from "styled-components";
+import { BsPencilSquare } from "react-icons/bs";
 import {
   AiOutlineCamera,
   AiOutlineVideoCamera,
   AiOutlineFileText,
   AiOutlineProfile,
-} from 'react-icons/ai';
+} from "react-icons/ai";
 
 export const Container = styled.div`
   color: var(--color-gray);
@@ -13,7 +13,7 @@ export const Container = styled.div`
   .write {
     display: flex;
     align-items: center;
-    padding: 18px 24px;
+    padding: 26px 24px;
 
     > span {
       margin-left: 8px;

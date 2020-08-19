@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import Panel from '../../Panel';
+import Panel from "../../Panel";
 
 import {
   Container,
@@ -13,7 +13,7 @@ import {
   CommentIcon,
   ShareIcon,
   SendIcon,
-} from './styles';
+} from "./styles";
 
 const FeedPost: React.FC = () => {
   return (
@@ -37,7 +37,7 @@ const FeedPost: React.FC = () => {
           <span className="circle blue" />
           <span className="circle green" />
           <span className="circle red" />
-          <span className="number">49</span>
+          <span className="number">{Math.floor(Math.random() * 400)}</span>
         </Row>
 
         <Row>

@@ -12,22 +12,22 @@ const TrendingPanel: React.FC = () => {
       readers: Math.floor(Math.random() * 3000),
     },
     {
-      name: "Há vagas: confira as empresas",
+      name: "Há vagas: confira as empresas que hoje...",
       index: 2,
       readers: Math.floor(Math.random() * 3000),
     },
     {
-      name: "Interesse por videogames dispara na",
+      name: "Interesse por videogames alerta a web...",
       index: 3,
       readers: Math.floor(Math.random() * 3000),
     },
     {
-      name: "Pesquisa detalha habitos dos brasileiros...",
+      name: "Pesquisa detalha habitos dos brasilei...",
       index: 4,
       readers: Math.floor(Math.random() * 3000),
     },
     {
-      name: "A importância do aprendizado contínuo na vida...",
+      name: "A importância do aprendizado conti...",
       index: 5,
       readers: Math.floor(Math.random() * 3000),
     },

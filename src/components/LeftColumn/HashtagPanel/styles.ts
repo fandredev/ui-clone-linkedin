@@ -12,9 +12,13 @@ export const Container = styled.div`
     font-weight: 600;
     padding: 8px 12px 16px;
 
-    .title {
+    .title,
+    .groups {
       color: var(--color-link);
       margin-bottom: 10px;
+    }
+    .groups {
+      margin-top: 20px;
     }
     .tag {
       color: var(--color-gray);
