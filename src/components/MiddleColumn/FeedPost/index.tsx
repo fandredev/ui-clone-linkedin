@@ -13,8 +13,8 @@ import {
   CommentIcon,
   ShareIcon,
   SendIcon,
+  WorldIcon,
 } from "./styles";
-
 const FeedPost: React.FC = () => {
   return (
     <Panel>
@@ -24,7 +24,11 @@ const FeedPost: React.FC = () => {
           <Column>
             <h3>Rocketseat</h3>
             <h4>Instituição de ensino</h4>
-            <time>1 sem</time>
+            <time>1 sem</time>&nbsp;
+            <span>
+              •Editado&nbsp;•
+              <WorldIcon />
+            </span>
           </Column>
         </Row>
 

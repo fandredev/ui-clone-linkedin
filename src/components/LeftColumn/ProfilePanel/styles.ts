@@ -42,7 +42,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
     font-size: 12px;
-    margin: 10px 12px;
+    margin: 10px 7px;
     font-weight: 600;
 
     .key {

@@ -2,6 +2,7 @@ import React from "react";
 
 import Panel from "../../Panel";
 import Premium from "../Premium";
+
 import { Container } from "./styles";
 
 const ProfilePanel: React.FC = () => {

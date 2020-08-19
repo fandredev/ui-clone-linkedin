@@ -8,6 +8,9 @@ import {
   NotificationsIcon,
   ProfileCircle,
   CaretDownIcon,
+  MyNetworkIcon,
+  MessagesIcon,
+  BagIcon,
 } from "./styles";
 
 const DesktopHeader: React.FC = () => {
@@ -23,6 +26,18 @@ const DesktopHeader: React.FC = () => {
             <button className="active">
               <HomeIcon />
               <span>Inicio</span>
+            </button>
+            <button>
+              <MyNetworkIcon />
+              <span>Minha Rede</span>
+            </button>
+            <button>
+              <BagIcon />
+              <span>Vagas</span>
+            </button>
+            <button>
+              <MessagesIcon />
+              <span>Mensagens</span>
             </button>
             <button>
               <NotificationsIcon />

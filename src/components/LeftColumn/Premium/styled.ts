@@ -8,7 +8,7 @@ export const Container = styled.section`
   padding: 15px;
 `;
 export const Text = styled.h3`
-  color: #000;
+  color: rgba(0, 0, 0, 0.9);
   font-size: 12px;
   line-height: 1.33333;
   font-weight: 600;

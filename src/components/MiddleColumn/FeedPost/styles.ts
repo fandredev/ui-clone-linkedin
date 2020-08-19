@@ -1,10 +1,11 @@
-import styled, { css } from 'styled-components';
-import { AiOutlineLike } from 'react-icons/ai';
+import styled, { css } from "styled-components";
+import { AiOutlineLike } from "react-icons/ai";
+import { TiWorld } from "react-icons/ti";
 import {
   RiMessage2Line,
   RiShareForwardLine,
   RiSendPlaneLine,
-} from 'react-icons/ri';
+} from "react-icons/ri";
 
 export const Container = styled.div`
   margin-top: 8px;
@@ -26,7 +27,8 @@ export const Row = styled.div`
       color: var(--color-black);
     }
     h4,
-    time {
+    time,
+    span {
       font-size: 12px;
       font-weight: normal;
       color: var(--color-gray);
@@ -135,4 +137,8 @@ export const ShareIcon = styled(RiShareForwardLine)`
 
 export const SendIcon = styled(RiSendPlaneLine)`
   ${iconCSS}
+`;
+export const WorldIcon = styled(TiWorld)`
+  width: 12px;
+  height: 12px;
 `;

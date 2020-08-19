@@ -1,10 +1,15 @@
 import styled, { css } from "styled-components";
 import { GrLinkedin } from "react-icons/gr";
 import { AiFillHome, AiOutlineBell, AiFillCaretDown } from "react-icons/ai";
-
+import { IoMdPeople } from "react-icons/io";
+import { TiMessages } from "react-icons/ti";
+import { BsBag } from "react-icons/bs";
 const generalIconCss = css`
   height: 24px;
   width: 24px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 167ms;
+  transform: scale(1);
 `;
 
 export const Container = styled.header`
@@ -98,4 +103,13 @@ export const CaretDownIcon = styled(AiFillCaretDown)`
   ${generalIconCss}
   width: 16px;
   height: 16px;
+`;
+export const MyNetworkIcon = styled(IoMdPeople)`
+  ${generalIconCss}
+`;
+export const MessagesIcon = styled(TiMessages)`
+  ${generalIconCss}
+`;
+export const BagIcon = styled(BsBag)`
+  ${generalIconCss}
 `;
