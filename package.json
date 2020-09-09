@@ -20,9 +20,12 @@
         "typescript": "~3.7.2"
     },
     "author": {
-        "email": "guilherme.rodrigues.profissional@gmail.com",
-        "name": "Guilherme Rodz",
-        "url": "https://github.com/guilhermerodz"
+        "email": "profissionalf.andre@gmail.com",
+        "name": "Felipe André",
+        "url": "https://github.com/flubyGit"
+    },
+    "repository": {
+      "url": "https://github.com/flubyGit/ui-clone-linkedin"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -64,8 +67,21 @@
         "babel-loader": "^8.1.0",
         "eslint-config-prettier": "^6.11.0",
         "eslint-plugin-prettier": "^3.1.4",
+        "husky": "^4.3.0",
+        "lint-staged": "^10.3.0",
         "prettier": "^2.0.5",
         "react-is": "^16.13.1",
         "storybook": "^6.0.12"
+    },
+    "husky":{
+      "hooks":{
+        "pre-commit":"lint-staged"
+      }
+    },
+    "lint-staged":{
+      "*.{ts,tsx}": [
+        "prettier --write",
+        "eslint --fix"
+      ]
     }
 }
